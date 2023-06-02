@@ -1,13 +1,14 @@
 import React from 'react';
-import Button from "../../components/Button/Button";
+import BannerHome from "../../components/BannerHome/BannerHome";
+import Investors from "../../components/Investors/Investors";
 
 function Home(props) {
     return (
-        <div>Home
-
-            <Button size='m'arrow={true}>Get Started</Button>
-            <Button size='l' >Get Started with GAMAN</Button>
-        </div>
+        <>
+            <BannerHome/>
+            <Investors/>
+            {/*<Button size='l' >Get Started with GAMAN</Button>*/}
+        </>
     );
 }
 

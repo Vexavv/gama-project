@@ -1,8 +1,15 @@
 import React from 'react';
+import BannerMain from "../../components/BannerMain/BannerMain";
+import ContentPage from "../../components/ContentPage/ContentPage";
 
 function Term(props) {
     return (
-        <div>Term</div>
+        <>
+            <BannerMain>
+                Terms & condition
+            </BannerMain>
+            <ContentPage/>
+            </>
     );
 }
 

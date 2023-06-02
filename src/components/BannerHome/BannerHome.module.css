@@ -1,0 +1,63 @@
+.banner{
+    padding-top: 21px;
+    width: 100%;
+    background: linear-gradient(to bottom right, rgba(255,255,255,1) 0%, rgba(255,227,230,1) 100%),
+    linear-gradient(to top left, rgba(255,255,255,1) 0%, rgba(255,227,230,1) 100%);
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.man{
+    padding-top: 40px;
+}
+.manImage{
+   margin-left: 25px;
+    width: 250px;
+}
+.opera{
+    position: absolute;
+    top:38%;
+    right:15%;
+
+}
+
+
+@media (min-width: 600px) {
+
+    .content{
+        flex-direction: row;
+    }
+    .man{
+        padding-top: 0;
+    }
+    .manImage{
+        width: 350px;
+    }
+    .opera{
+        position: absolute;
+        top:50%;
+        right:0;
+        left:37%;
+        width: 50px;
+
+    }
+}
+@media (min-width: 900px) {
+    .banner{
+        padding-top: 44px;
+    }
+    .manImage{
+        width: 650px;
+    }
+    .opera{
+        position: absolute;
+        top:63%;
+        left:28%;
+        width: 79px;
+    }
+
+}
+

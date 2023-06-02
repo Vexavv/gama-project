@@ -2,12 +2,15 @@
     --primary-background: linear-gradient(180deg, #E50F1C -38.3%, rgba(146, 0, 0, 0.89) 198.94%), #FFFFFF;
     --secondary-background: linear-gradient(180deg, #D8111C 0%, #B9161B 100%);
 
-    --primary-text-color: #000000;
-    --secondary-text-color:#FFFFFF;
 
-    --primary-font-family:'Inter';
-    --secondary-font-family:'Poppins';
-    --third-font-family:'Ubuntu';
+    --primary-text-color: #000000;
+    --secondary-text-color: #FFFFFF;
+    --third-text-color:#C8131B;
+
+
+    --primary-font-family: 'Inter';
+    --secondary-font-family: 'Poppins';
+    --third-font-family: 'Ubuntu';
     --logo-font-family: 'Outfit';
 
 

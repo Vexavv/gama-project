@@ -1,0 +1,26 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    box-shadow: 0 1.03758px 5.18791px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    margin-bottom:  32px;
+    padding-bottom: 16px;
+}
+.name{
+    font-family: var(--primary-font-family);
+    color:var(--primary-text-color);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 128.52%;
+    padding: 13px 0 6px 14px;
+}
+.title{
+    font-family: var(--primary-font-family);
+    color:var(--primary-text-color);
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 128.52%;
+    padding-left: 14px;
+}

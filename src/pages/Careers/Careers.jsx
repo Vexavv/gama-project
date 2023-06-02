@@ -1,8 +1,11 @@
 import React from 'react';
+import BannerMain from "../../components/BannerMain/BannerMain";
 
 function Careers(props) {
     return (
-        <div>Careers</div>
+        <>
+            <BannerMain>Careers</BannerMain>
+        </>
     );
 }
 
