@@ -1,0 +1,40 @@
+.email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.email a {
+    font-family: var(--primary-font-family);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 120.02%;
+    color: var(--secondary-text-color);
+    padding-bottom: 12px;
+}
+
+@media (min-width: 600px) {
+    .email {
+        align-items: flex-start;
+        padding-left: 15px;
+    }
+
+    .email a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+}
+@media (min-width: 900px) {
+    .email {
+        margin-top: 30px;
+        padding-left: 30px;
+    }
+
+    .email a {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+}

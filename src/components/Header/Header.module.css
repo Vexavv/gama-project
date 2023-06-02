@@ -1,0 +1,61 @@
+.header {
+    background: #FFFFFF;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.102);
+}
+
+.headerContent {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    align-items: center;
+    position: relative;
+
+}
+
+.headerLogo {
+    padding: 21px 0;
+    cursor: pointer;
+    width: 86px;
+
+}
+
+.headerButton {
+    display: none;
+
+}
+
+.burger {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    top:12px;
+    right: 0;
+
+
+}
+
+@media (min-width: 600px) {
+    .headerContent {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        align-items: center;
+        position: relative;
+
+    }
+    .headerLogo {
+        padding: 30px 0;
+        width: 141px;
+
+    }
+
+    .headerButton {
+        display: block;
+    }
+
+    .burger {
+        display: none;
+    }
+}
+
+@media (min-width: 900px) {
+
+}
