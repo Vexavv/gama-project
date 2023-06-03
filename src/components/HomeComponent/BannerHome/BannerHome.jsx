@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './BannerHome.module.css'
-import Slogan from "../Slogan/Slogan";
-import Container from "../Container/Container";
+import Slogan from "../../Slogan/Slogan";
+import Container from "../../Container/Container";
 
 function BannerHome(props) {
     return (

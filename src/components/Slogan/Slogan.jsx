@@ -1,13 +1,12 @@
 import React from 'react';
 import styles from './Slogan.module.css'
 import Button from "../Button/Button";
+import MainTitle from "../MainTitle/MainTitle";
 
-function Slogan({paragraph, teg, }) {
+function Slogan() {
     return (
         <div className={styles.slogan}>
-            <span className={styles.title}>Monetize & Engage
-                Your <span>FANS</span> with
-                Personalized Games</span>
+            <MainTitle size='top'/>
             <p className={styles.text}>Unlock the Power of play and turn your passion into
                 profits effortlessly.</p>
             <Button size='m' arrow={true}>Get Started</Button>

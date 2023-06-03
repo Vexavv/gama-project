@@ -4,17 +4,6 @@
     align-items: center;
 
 }
-.title{
-    font-family: var(--third-font-family);
-    color:var(--primary-text-color);
-    font-weight: 500;
-    font-size: 26px;
-    line-height: 136%;
-    padding-bottom: 16px;
-}
-.title span{
-    color:var(--third-text-color);
-}
 .text{
     font-family: var(--primary-font-family);
     color:var(--primary-text-color);
@@ -23,14 +12,10 @@
     line-height: 216.8%;
     padding-bottom: 26px;
 }
+
 @media (min-width: 600px) {
     .slogan{
         align-items: flex-start;
-    }
-    .title{
-        text-align: left;
-        font-size: 35px;
-        padding-bottom: 30px;
     }
     .text{
         text-align: left;
@@ -40,21 +25,10 @@
 }
 @media (min-width: 900px) {
 
-    .title{
-
-        font-size: 60px;
-        padding-bottom: 41px;
-    }
     .text{
         text-align: left;
         font-size: 20px;
         padding-bottom: 56px;
     }
-    /*.slogan img{*/
-    /*    position: absolute;*/
-    /*    top:63%;*/
-    /*    left:28%;*/
-    /*    width: 79px;*/
-    /*}*/
 
 }

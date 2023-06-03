@@ -1,0 +1,8 @@
+.start {
+    background: var(--background-home);
+    border-radius: 20px;
+    padding-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
