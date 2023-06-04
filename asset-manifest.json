@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/gama-project/static/css/main.1a10f84b.css",
+    "main.js": "/gama-project/static/js/main.a4547a19.js",
+    "static/media/revicons.eot": "/gama-project/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/gama-project/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/gama-project/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/gama-project/index.html",
+    "main.1a10f84b.css.map": "/gama-project/static/css/main.1a10f84b.css.map",
+    "main.a4547a19.js.map": "/gama-project/static/js/main.a4547a19.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a10f84b.css",
+    "static/js/main.a4547a19.js"
+  ]
+}
