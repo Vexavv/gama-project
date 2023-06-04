@@ -5,7 +5,7 @@ function CarouselHomeCard({name, image, earning, followers, onclick}) {
     return (
         <div className={styles.card}>
             <div className={styles.cardImg}>
-                <img src={image} alt={name}/>
+                {/*<img src={image} alt={name}/>*/}
             </div>
             <div className={styles.cardContent}>
                 <div className={styles.cardInfo}>

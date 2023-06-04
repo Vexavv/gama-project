@@ -1,14 +1,16 @@
-.carousel{
+.carousel {
     background: var(--background-home);
     padding: 30px 0 38px 0;
-
+position: relative;
 }
-.carouselContent{
+
+.carouselContent {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.carouselTitle{
+
+.carouselTitle {
     font-family: var(--primary-font-family);
     font-weight: 600;
     font-size: 18px;
@@ -19,16 +21,59 @@
     padding-bottom: 24px;
 
 }
+
 @media (min-width: 600px) {
-    .carousel{
+    .carousel {
         padding-top: 82px;
     }
-    .carouselTitle{
+
+    .carouselTitle {
         font-size: 40px;
         max-width: 603px;
         padding-bottom: 80px;
     }
 }
+
 @media (min-width: 900px) {
 
+}
+
+.customDot {
+    background-color: gray; /* Цвет точки по умолчанию */
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: var(--third-text-color);
+}
+.dotContainer {
+    display: flex;
+    justify-content: center;
+}
+
+
+.customRightArrow,
+.customLeftArrow {
+    background: none;
+    border: none;
+    color: black; /* Желаемый цвет стрелок */
+    font-size: 30px;
+    cursor: pointer;
+
+}
+.customLeftArrow:focus,
+.customRightArrow:focus {
+    outline: none;
+}
+.customLeftArrow {
+    margin-right: 10px;
+}
+
+.customRightArrow {
+    margin-left: 10px;
 }

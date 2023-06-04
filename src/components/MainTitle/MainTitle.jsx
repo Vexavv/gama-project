@@ -3,17 +3,17 @@ import styles from './MainTitle.module.css'
 import cn from 'classnames'
 function MainTitle({size,}) {
     const [value, setValue] = useState('FANS');
-    useEffect(() => {
-        const slogans = ['FANS', 'AUDIENCE', 'Community'];
-        let currentIndex = 0;
-
-        const interval = setInterval(() => {
-            currentIndex = (currentIndex + 1) % slogans.length;
-            setValue(slogans[currentIndex]);
-        }, 3000);
-
-        return () => clearInterval(interval);
-    }, []);
+    // useEffect(() => {
+    //     const slogans = ['FANS', 'AUDIENCE', 'Community'];
+    //     let currentIndex = 0;
+    //
+    //     const interval = setInterval(() => {
+    //         currentIndex = (currentIndex + 1) % slogans.length;
+    //         setValue(slogans[currentIndex]);
+    //     }, 3000);
+    //
+    //     return () => clearInterval(interval);
+    // }, []);
     return (
         <span className={cn(styles.title, {
             [styles.titleTop]:size  === 'top',

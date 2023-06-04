@@ -13,6 +13,7 @@
     line-height: 149.5%;
     padding-bottom: 38px;
     text-align: left;
+    max-width: 224px;
 }
 /*.valueWrapper {*/
 /*    display: inline-block;*/
@@ -69,5 +70,13 @@
         font-size: 55px;
         line-height: 82px;
     }
-
+    .titleTop{
+        font-size: 60px;
+        padding-bottom: 41px;
+    }
+    .titleBottom{
+        font-size: 45px;
+        padding-bottom: 0;
+        max-width: 420px;
+    }
 }

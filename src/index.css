@@ -1,13 +1,14 @@
 :root {
     --primary-background: linear-gradient(180deg, #E50F1C -38.3%, rgba(146, 0, 0, 0.89) 198.94%), #FFFFFF;
     --secondary-background: linear-gradient(180deg, #D8111C 0%, #B9161B 100%);
-    --background-home: linear-gradient(to bottom right, rgba(255,255,255,1) 0%, rgba(255,227,230,1) 100%),
-    linear-gradient(to top left, rgba(255,255,255,1) 0%, rgba(255,227,230,1) 100%);
+    --background-home: linear-gradient(to bottom right, rgba(255, 255, 255, 1) 0%, rgba(255, 227, 230, 1) 100%),
+    linear-gradient(to top left, rgba(255, 255, 255, 1) 0%, rgba(255, 227, 230, 1) 100%);
+    --background-accardion: linear-gradient(180deg, rgba(229, 15, 28, 0.1) -38.3%, rgba(146, 0, 0, 0.089) 198.94%);;
 
 
     --primary-text-color: #000000;
     --secondary-text-color: #FFFFFF;
-    --third-text-color:#C8131B;
+    --third-text-color: #C8131B;
 
 
     --primary-font-family: 'Inter';
