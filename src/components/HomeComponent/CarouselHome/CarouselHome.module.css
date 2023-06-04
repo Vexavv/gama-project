@@ -57,23 +57,23 @@ position: relative;
 }
 
 
-.customRightArrow,
-.customLeftArrow {
-    background: none;
-    border: none;
-    color: black; /* Желаемый цвет стрелок */
-    font-size: 30px;
+.customArrow {
+    background-color: black;
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border-radius: 50%;
     cursor: pointer;
+}
 
-}
-.customLeftArrow:focus,
-.customRightArrow:focus {
-    outline: none;
-}
-.customLeftArrow {
+.customArrowLeft {
     margin-right: 10px;
 }
 
-.customRightArrow {
+.customArrowRight {
     margin-left: 10px;
 }
