@@ -1,0 +1,49 @@
+.investors {
+    background: url("../../../public/image/investors-background.png"), var(--background-home);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 84px;
+    position: relative;
+}
+
+.title {
+    font-family: var(--primary-font-family);
+    color: var(--primary-text-color);
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 128.52%;
+    text-transform: uppercase;
+    padding: 69px 0 80px 0;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.wrapper{
+    padding: 0 150px;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.cer {
+    position: absolute;
+    top: 6%;
+    left: 23%;
+}
+.star{
+    position: absolute;
+    top: 4%;
+    right: 23%;
+}
+.ellips{
+    position: absolute;
+    top: 14%;
+    right: 23%;
+}

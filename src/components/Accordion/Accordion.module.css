@@ -1,0 +1,120 @@
+.accordion {
+    width: 100%;
+    min-width: 295px;
+    max-width: 600px;
+    background: var(--background-accardion);
+    border-radius: 20px;
+    border: 1px solid var(--third-text-color);
+    margin-bottom: 14px;
+    box-sizing: border-box;
+}
+
+.accordionTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    font-family: var(--primary-font-family);
+    color: var(--secondary-text-color);
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 128.52%;
+    background: var( --primary-background);
+    border-radius: 20px;
+
+
+}
+
+.accordionTitle,
+.accordionContent {
+    padding: 1rem;
+}
+
+.accordionContent {
+    text-align: left;
+    font-family: var(--primary-font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 185%;
+    color: var(--primary-text-color);
+    width: 100%;
+}
+
+.icon {
+    color: var(--secondary-text-color);
+    width: 13px;
+    height: 13px;
+}
+
+@media (min-width: 600px) {
+    .accordion {
+        width: 400px;
+        background: var(--background-accardion);
+        border-radius: 20px;
+        border: none;
+        margin-bottom: 20px;
+    }
+
+    .accordionTitle {
+        font-size: 12px;
+    }
+
+    .accordionTitle,
+    .accordionContent {
+        padding: 1rem;
+    }
+
+    .accordionContent {
+        font-size: 10px;
+    }
+
+    .icon {
+        color: var(--secondary-text-color);
+        width: 18px;
+        height: 18px;
+    }
+}
+@media (min-width: 900px) {
+    .accordion {
+        width: 600px;
+        background: var(--background-accardion);
+        border-radius: 20px;
+        border: none;
+        margin-bottom: 20px;
+    }
+    .accordionActive{
+        border: 1px solid var(--third-text-color);
+    }
+
+    .accordionTitle {
+        color: var(--primary-text-color);
+        font-size: 18px;
+        background: var(--background-accardion);
+
+    }
+
+    .accordionTitleActive {
+        background: var( --primary-background);
+        color: var(--secondary-text-color);
+    }
+
+    .accordionTitle,
+    .accordionContent {
+        padding: 2rem;
+    }
+
+    .accordionContent {
+        font-size: 14px;
+        line-height: 192.52%;
+    }
+
+    .icon {
+        color: var(--primary-text-color);
+        width: 25px;
+        height: 25px;
+    }
+    .iconActive{
+        color: var(--secondary-text-color);
+    }
+}

@@ -1,12 +1,21 @@
 import React from 'react';
-import Button from "../../components/Button/Button";
+import styles from './Home.module.css'
+import BannerHome from "../../components/HomeComponent/BannerHome/BannerHome";
+// import Investors from "../../components/Investors/Investors";
+import CarouselHome from "../../components/HomeComponent/CarouselHome/CarouselHome";
+import GetStart from "../../components/HomeComponent/GetStart/GetStart";
+import FaqHome from "../../components/HomeComponent/FaqHome/FaqHome";
+import StepsHome from "../../components/HomeComponent/StepsHome/StepsHome";
 
 function Home(props) {
     return (
-        <div>Home
-
-            <Button size='m'arrow={true}>Get Started</Button>
-            <Button size='l' >Get Started with GAMAN</Button>
+        <div className={styles.home}>
+            <BannerHome/>
+            <StepsHome/>
+            <CarouselHome/>
+            <FaqHome/>
+            <GetStart/>
+            {/*<Investors/>*/}
         </div>
     );
 }

@@ -1,8 +1,11 @@
 import React from 'react';
+import BannerMain from "../../components/BannerMain/BannerMain";
 
 function Creator(props) {
     return (
-        <div>Creator zone</div>
+        <>
+            <BannerMain>Creator zone</BannerMain>
+        </>
     );
 }
 
