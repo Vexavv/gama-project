@@ -10,6 +10,7 @@ function Slogan() {
             <p className={styles.text}>Unlock the Power of play and turn your passion into
                 profits effortlessly.</p>
             <Button size='m' arrow={true}>Get Started</Button>
+            <img className={styles.opera} src="./image/svg/opera.svg" alt="opera"/>
         </div>
     );
 }

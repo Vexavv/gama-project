@@ -7,6 +7,7 @@ import GetStart from "../../components/HomeComponent/GetStart/GetStart";
 import FaqHome from "../../components/HomeComponent/FaqHome/FaqHome";
 import StepsHome from "../../components/HomeComponent/StepsHome/StepsHome";
 
+
 function Home(props) {
     return (
         <div className={styles.home}>
