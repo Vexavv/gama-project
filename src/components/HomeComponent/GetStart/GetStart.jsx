@@ -10,11 +10,12 @@ function GetStart(props) {
             <div className={styles.startContent}>
                 <MainTitle size='bottom'/>
                 <div className={styles.startContentButton}>
+                    <img className={styles.starsGroup} src="./image/Group-stars.png" alt="stars"/>
+                    <img className={styles.curlyArrow} src="./image/curlyArrow.png" alt="curlyArrow"/>
                     <span className={styles.startContentTag}>#gamanforcreators</span>
                     <Button size='l' >Get Started with GAMAN</Button>
                 </div>
-                <img className={styles.starsGroup} src="./image/Group-stars.png" alt="stars"/>
-                <img className={styles.curlyArrow} src="./image/curlyArrow.png" alt="curlyArrow"/>
+
             </div>
 
         </div>

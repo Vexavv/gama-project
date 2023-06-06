@@ -21,8 +21,6 @@
     line-height: 128.52%;
     background: var( --primary-background);
     border-radius: 20px;
-
-
 }
 
 .accordionTitle,
@@ -49,7 +47,6 @@
 
 @media (min-width: 600px) {
     .accordion {
-        width: 400px;
         background: var(--background-accardion);
         border-radius: 20px;
         border: none;
@@ -77,7 +74,6 @@
 }
 @media (min-width: 900px) {
     .accordion {
-        width: 600px;
         background: var(--background-accardion);
         border-radius: 20px;
         border: none;

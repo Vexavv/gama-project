@@ -11,7 +11,6 @@ function BannerHome(props) {
                     <Slogan/>
                     <div className={styles.man}>
                         <img className={styles.manImage} src="./image/man.png" alt="man"/>
-                        <img className={styles.opera} src="./image/svg/opera.svg" alt="opera"/>
                     </div>
                 </div>
 

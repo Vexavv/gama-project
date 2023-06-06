@@ -1,7 +1,8 @@
-.steps{
-   padding: 30px 0 19px 0;
+.steps {
+    padding: 30px 0 19px 0;
 }
-.stepsTitle{
+
+.stepsTitle {
     font-family: var(--primary-font-family);
     color: var(--primary-text-color);
     font-weight: 600;
@@ -10,80 +11,119 @@
     text-transform: uppercase;
     text-align: center;
     padding-bottom: 30px;
+    position: relative;
 }
-.stepsContent{
+/*.stepsTitle::after{*/
+/*    content: url("../../../../public/image/dash.png");*/
+/*    display: block;*/
+/*    !*border-bottom: 3px solid #CC121B;*!*/
+/*    !*width: 20px;*!*/
+/*    position: absolute;*/
+/*    top:27%;*/
+/*    right: 35.5%;*/
+/*    */
+
+/*}*/
+
+.stepsContent {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.stepsContentTabs{
+
+.stepsContentTabs {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-bottom: 27px;
 }
-.stepsContentPicture{
+
+.stepsContentPicture {
     width: 343px;
     height: 264px;
-    background: var(--background-accardion);
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
 
 }
-.screen{
-width: 314px;
+.fon {
+    background-image: url("../../../../public/image/image-back.png");
+    background-size: cover;
+    background-position: top;
+    width: 90%;
+    height: 120px;
+    margin-top: auto;
 }
+.screen {
+    width: 80%;
+    position: absolute;
+    left:10%;
+    bottom: 5%;
+}
+
 @media (min-width: 600px) {
-    .steps{
+    .steps {
         padding: 60px 0 100px 0;
     }
-    .stepsTitle{
+
+    .stepsTitle {
+        padding-left: 40%;
         font-size: 30px;
         padding-bottom: 25px;
     }
-    .stepsContent{
+
+    .stepsContent {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-evenly;
     }
-    .stepsContentTabs{
+
+    .stepsContentTabs {
         padding-bottom: 24px;
     }
-    .stepsContentPicture{
+
+    .stepsContentPicture {
         width: 430px;
         height: 320px;
-
+        display: flex;
+        flex-direction: column;
+        position: relative;
     }
-    .screen{
-        padding-top: 30px;
-        width: 350px;
+
+    .screen {
+        bottom: 5%;
     }
 }
+
 @media (min-width: 900px) {
-    .steps{
+    .steps {
         padding: 81px 0 142px 0;
     }
-    .stepsTitle{
+
+    .stepsTitle {
         font-size: 40px;
         padding-bottom: 34px;
     }
-    .stepsContent{
+
+    .stepsContent {
         flex-direction: row-reverse;
         justify-content: space-around;
-
     }
-    .stepsContentTabs{
+
+    .stepsContentTabs {
         padding-bottom: 24px;
     }
-    .stepsContentPicture{
-        width: 596px;
+
+    .stepsContentPicture {
+        width: 50%;
         height: 416px;
-
+        display: flex;
+        flex-direction: column;
+        position: relative;
     }
-    .screen{
-        padding-top: 40px;
-        width: 460px;
 
-    }
 }

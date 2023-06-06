@@ -16,6 +16,7 @@
     line-height: 15px;
     padding: 3px 8px 4px 7px;
 }
+
 .num::after{
     content: '';
     display: block;
@@ -69,6 +70,9 @@
         line-height: 25px;
         padding: 3px 11px;
     }
+    .activeNum{
+        background: var(--third-text-color);
+    }
     .num::after{
         width: 40px;
         top: 38%;
@@ -106,6 +110,7 @@
         line-height: 27px;
         padding: 6px 14px 3px 14px;
     }
+
     .num::after{
         width: 54px;
         top: 38%;
